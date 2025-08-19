@@ -1,0 +1,168 @@
+/* assets/css/style.css */
+
+/* RESET DAN DASAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("../img/cofe.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  color: #212529;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 960px;
+  margin: 60px auto;
+  background-color: rgba(255, 255, 255, 0.726);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* TYPOGRAFI */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #343a40;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #6f4e37;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.8;
+}
+
+/* BUTTONS */
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 8px 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-primary {
+  border: 2px solid #6f4e37;
+  color: #6f4e37;
+}
+.btn-outline-primary:hover {
+  background-color: #6f4e37;
+  color: #fff;
+}
+
+.btn-outline-success {
+  border: 2px solid #2d6a4f;
+  color: #2d6a4f;
+}
+.btn-outline-success:hover {
+  background-color: #2d6a4f;
+  color: #fff;
+}
+
+.btn-outline-dark {
+  border: 2px solid #343a40;
+  color: #343a40;
+}
+.btn-outline-dark:hover {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* FORM */
+.form-control {
+  border-radius: 6px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+}
+.form-control:focus {
+  border-color: #6f4e37;
+  box-shadow: 0 0 0 0.2rem rgba(111, 78, 55, 0.25);
+}
+
+/* TABEL */
+.table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.table thead {
+  background-color: #6f4e37;
+  color: #fff;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #2f2f2f !important;
+}
+.nav-link {
+  color: #fff !important;
+  margin-right: 1rem;
+}
+
+/* CARD */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+/* UTILITAS */
+.text-center {
+  text-align: center;
+}
+.mt-4 {
+  margin-top: 1.5rem;
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
